@@ -1,0 +1,18 @@
+library IEEE;
+
+use IEEE.std_logic_1164.all;
+
+entity primeiroProje is port
+(
+	a	:	in 	std_logic;
+	b 	:	in		std_logic;
+	o	: 	out	std_logic;
+)
+end primeiroProje; 
+
+architecture hardware of primeiroProje is 
+begin
+
+	o <= a and b;
+	
+end hardware;
